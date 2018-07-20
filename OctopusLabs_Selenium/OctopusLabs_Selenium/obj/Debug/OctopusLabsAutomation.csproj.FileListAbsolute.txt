@@ -1,0 +1,10 @@
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/OctopusLabs_Selenium.dll.config
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/OctopusLabs_Selenium.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/OctopusLabs_Selenium.pdb
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/WebDriver.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/WebDriver.Support.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/WebDriver.xml
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/bin/Debug/WebDriver.Support.xml
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/obj/Debug/OctopusLabsAutomation.csproj.CoreCompileInputs.cache
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/obj/Debug/OctopusLabs_Selenium.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabs_Selenium/obj/Debug/OctopusLabs_Selenium.pdb

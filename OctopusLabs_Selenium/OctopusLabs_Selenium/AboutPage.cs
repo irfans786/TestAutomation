@@ -123,12 +123,11 @@ namespace OctopusLabs_Selenium
 
         public static bool SortDisplayedImages(string sortType)
         {
-           // div[3] / div / div[2] / ul
-            ///html/body/main/section[2]/div/div/div[1]/section/div[2]/form/div[3]/div/select
+
             IWebElement selectElement = Driver.Instance.FindElement(By.XPath("//div[3]//div//select"));
             SelectElement select = new SelectElement(selectElement);
             PageUtilities.ScrollScreen(selectElement);
-            //Driver.Wait(TimeSpan.FromSeconds(2));
+            Driver.Wait(TimeSpan.FromSeconds(2));
             select.SelectByText("Sort " + sortType);
 
             Driver.Wait(TimeSpan.FromSeconds(1));
@@ -154,12 +153,16 @@ namespace OctopusLabs_Selenium
                         PageUtilities.ScrollScreen(ListOfRecords[i]);
                        
                         NameArray[i] = element.Text;
-                        //Console.WriteLine("Person Name : " + element.Text);
+                        Console.WriteLine("Person Name : " + element.Text);
 
                         ListOfRecords = Driver.Instance.FindElements(By.ClassName("search-result_item"));
                     }
 
-                   return PageUtilities.IsSortedDescending(NameArray);
+                    if (sortType == "Z-A")
+                    
+                        return PageUtilities.IsSortedDescending(NameArray);
+                    else
+                        return PageUtilities.IsSortedAscending(NameArray);
                 }
 
                 return false;

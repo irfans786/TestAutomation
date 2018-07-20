@@ -10,8 +10,8 @@ namespace OctopusLabsTests
         #region "Working Test Scenarios" 
         //----------------------------------------------------------
 
-        //[TestCase ("A-Z")]
-        [TestCase("Z-A"), Description("1 - Test Descending sort Is working As per selection")]
+        [TestCase ("A-Z") , Description("1 - Test sort Is working As per selection")]
+        [TestCase("Z-A")]
         [Category("PositiveTest")]
         public void SortedPersonList(string SortType)
         {
@@ -56,7 +56,7 @@ namespace OctopusLabsTests
 
 
         #region "Empty test case blocks"
-        [TestCase("Adam Said"), Description("5 - Test personName Image clicking goes to next details page")]
+        [TestCase("Adam Said"), Description("5 - Test clicking on personName Image clicking goes to next details page")]
         [Ignore]
         [Category("PositiveTest")]
         public void DisplayPersonDetails(string PersonName)
@@ -106,7 +106,7 @@ namespace OctopusLabsTests
             // Assert to check that IsPostCodeInput NotActive
         }
 
-        [TestCase("Business Development team", "SortType", "PostCode"), Description("10 - Test to Filter by Department and .")]
+        [TestCase("Business Development team", "SortType", "PostCode"), Description("10 - Test to Filter by BD Department, PostCode and Sort Type .")]
         [Category("Positive")]
         [Ignore]
         public void FilterByDeptPostalAndSort(string Department, string SortType, string PostCode)

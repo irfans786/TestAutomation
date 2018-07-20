@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
@@ -103,10 +104,33 @@ namespace OctopusLabs_Selenium
         {
             for (int i = arr.Length - 2; i >= 0; i--)
             {
-                //TODO : To Ignore special character
-                if (string.Compare(arr[i], arr[i + 1]) < 0) // If previous is smaller, return false
+               if (arr[i] != "" && arr[i+1] != "")
                 {
-                    return false;
+                    if (string.Compare(arr[i], arr[i + 1]) < 0) // If previous is smaller, return false
+
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        /// <summary>
+        /// Determines if string array is sorted from A -> Z
+        /// </summary>
+        public static bool IsSortedAscending(string[] arr)
+        {
+
+            for (int i = 0; i <= arr.Length - 2; i++)
+            {
+                if (arr[i] != "" && arr[i + 1] != "")
+                {
+                    if (string.Compare(arr[i +1], arr[i]) < 0) // If next is smaller, return false
+
+                    {
+                        return false;
+                    }
                 }
             }
             return true;

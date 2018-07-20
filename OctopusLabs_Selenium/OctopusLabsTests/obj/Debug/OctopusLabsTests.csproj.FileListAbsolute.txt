@@ -1,0 +1,17 @@
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/OctopusLabs_Selenium.dll.config
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/OctopusLabsTests.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/OctopusLabsTests.pdb
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/nunit.framework.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/OctopusLabs_Selenium.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/Xamarin.UITest.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/WebDriver.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/WebDriver.Support.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/OctopusLabs_Selenium.pdb
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/nunit.framework.xml
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/Xamarin.UITest.xml
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/WebDriver.xml
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/bin/Debug/WebDriver.Support.xml
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/obj/Debug/OctopusLabsTests.csprojResolveAssemblyReference.cache
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/obj/Debug/OctopusLabsTests.csproj.CoreCompileInputs.cache
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/obj/Debug/OctopusLabsTests.dll
+/Users/Mysha/Projects/OctopusLabs_Selenium/OctopusLabsTests/obj/Debug/OctopusLabsTests.pdb
